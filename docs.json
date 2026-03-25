@@ -1,11 +1,11 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mint Starter Kit",
+  "name": "AIHDStudio Help Center",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#E63030",
+    "light": "#FF5252",
+    "dark": "#C42020"
   },
   "favicon": "/favicon.svg",
   "navigation": {
@@ -14,55 +14,55 @@
         "tab": "Guides",
         "groups": [
           {
-            "group": "Getting started",
+            "group": "Getting Started",
             "pages": [
               "index",
               "quickstart",
-              "development"
+              "dashboard"
             ]
           },
           {
-            "group": "Customization",
+            "group": "AI Tools",
             "pages": [
-              "essentials/settings",
-              "essentials/navigation"
+              "tools/ai-designer",
+              "tools/wall-color-changer",
+              "tools/art-visualizer",
+              "tools/layout-ideas",
+              "tools/product-finder",
+              "tools/ugc-studio",
+              "tools/design-planner"
             ]
           },
           {
-            "group": "Writing content",
+            "group": "Your Designs",
             "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
+              "designs/gallery",
+              "designs/mood-boards",
+              "designs/before-after",
+              "designs/sharing"
             ]
           },
           {
-            "group": "AI tools",
+            "group": "Credits & Plans",
             "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "API reference",
-        "groups": [
-          {
-            "group": "API documentation",
-            "pages": [
-              "api-reference/introduction"
+              "billing/credits",
+              "billing/plans",
+              "billing/upgrade"
             ]
           },
           {
-            "group": "Endpoint examples",
+            "group": "Tips & Best Practices",
             "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+              "tips/better-results",
+              "tips/photo-guide",
+              "tips/design-planner-tips"
+            ]
+          },
+          {
+            "group": "Troubleshooting",
+            "pages": [
+              "support/faq",
+              "support/common-issues"
             ]
           }
         ]
@@ -71,14 +71,14 @@
     "global": {
       "anchors": [
         {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
+          "anchor": "Open App",
+          "href": "https://homedesignerstudio.vercel.app",
+          "icon": "house"
         },
         {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
+          "anchor": "Pricing",
+          "href": "https://homedesignerstudio.vercel.app/pricing",
+          "icon": "credit-card"
         }
       ]
     }
@@ -91,32 +91,30 @@
     "links": [
       {
         "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "href": "mailto:support@aihdstudio.com"
       }
     ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+      "label": "Open App",
+      "href": "https://homedesignerstudio.vercel.app"
     }
   },
   "contextual": {
     "options": [
-     "copy",
-     "view",
-     "chatgpt",
-     "claude",
-     "perplexity",
-     "mcp",
-     "cursor",
-     "vscode"
-   ]
+      "copy",
+      "view",
+      "chatgpt",
+      "claude",
+      "perplexity",
+      "mcp",
+      "cursor",
+      "vscode"
+    ]
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "x": "https://x.com/aihdstudio"
     }
   }
 }
