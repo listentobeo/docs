@@ -2,6 +2,12 @@
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
   "name": "AIHDStudio Help Center",
+ "seo": {
+    "metatags": {
+      "canonical": "https://docs.aihdstudio.com"
+    }
+  },
+  
   "colors": {
     "primary": "#E63030",
     "light": "#FF5252",
