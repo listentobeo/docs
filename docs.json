@@ -75,20 +75,24 @@
       }
     ],
     "global": {
-      "anchors": [
-        {
-          "anchor": "Open App",
-          "href": "https://homedesignerstudio.vercel.app",
-          "icon": "house"
-        },
-        {
-          "anchor": "Pricing",
-          "href": "https://homedesignerstudio.vercel.app/pricing",
-          "icon": "credit-card"
-        }
-      ]
+  "anchors": [
+    {
+      "anchor": "Main Website",
+      "href": "https://aihdstudio.com",
+      "icon": "globe"
+    },
+    {
+      "anchor": "Open App",
+      "href": "https://app.aihdstudio.com",
+      "icon": "house"
+    },
+    {
+      "anchor": "Pricing",
+      "href": "https://app.aihdstudio.com/pricing",
+      "icon": "credit-card"
     }
-  },
+  ]
+},
   "logo": {
     "light": "/logo/light.svg",
     "dark": "/logo/dark.svg"
@@ -97,13 +101,13 @@
     "links": [
       {
         "label": "Support",
-        "href": "mailto:support@aihdstudio.com"
+        "href": "mailto:contact@aihdstudio.com"
       }
     ],
     "primary": {
       "type": "button",
       "label": "Open App",
-      "href": "https://homedesignerstudio.vercel.app"
+      "href": "https://app.aihdstudio.com"
     }
   },
   "contextual": {
