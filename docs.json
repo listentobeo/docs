@@ -75,24 +75,24 @@
       }
     ],
     "global": {
-  "anchors": [
-    {
-      "anchor": "Main Website",
-      "href": "https://aihdstudio.com",
-      "icon": "globe"
-    },
-    {
-      "anchor": "Open App",
-      "href": "https://app.aihdstudio.com",
-      "icon": "house"
-    },
-    {
-      "anchor": "Pricing",
-      "href": "https://app.aihdstudio.com/pricing",
-      "icon": "credit-card"
+      "anchors": [
+        {
+          "anchor": "Main Website",
+          "href": "https://aihdstudio.com",
+          "icon": "globe"
+        },
+        {
+          "anchor": "Open App",
+          "href": "https://app.aihdstudio.com",
+          "icon": "house"
+        },
+        {
+          "anchor": "Pricing",
+          "href": "https://app.aihdstudio.com/pricing",
+          "icon": "credit-card"
+        }
+      ]
     }
-  ]
-}
   },
   "logo": {
     "light": "/logo/light.svg",
